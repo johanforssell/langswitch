@@ -3,6 +3,6 @@ run:
 build:
 	swift build
 
-build-release:
+release:
 	swift build -c release
 	cp .build/release/langswitch ~/bin/
